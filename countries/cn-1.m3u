@@ -1,0 +1,98 @@
+#EXTM3U
+# Custom Chinese channels (cn-1)
+#EXTINF:-1 tvg-id="CCTV-5体育@CN" tvg-logo="https://example.com/CCTV-5体育.png" group-title="China",CCTV-5体育
+rtmp://ayrtsocndali.v.myalicdn.com/ayocnd/aoyuncctv5_2pd
+#EXTINF:-1 tvg-id="CCTV-5体育赛事@CN" tvg-logo="https://example.com/CCTV-5体育赛事.png" group-title="China",CCTV-5+体育赛事
+rtmp://ayrtsocndali.v.myalicdn.com/ayocnd/aoyuncctv5plus_2pd
+#EXTINF:-1 tvg-id="CCTV-16奥林匹克@CN" tvg-logo="https://example.com/CCTV-16奥林匹克.png" group-title="China",CCTV-16奥林匹克
+rtmp://ayrtsocndali.v.myalicdn.com/ayocnd/4kcctv16_2pd
+#EXTINF:-1 tvg-id="CCTV-5HD@CN" tvg-logo="https://example.com/CCTV-5HD.png" group-title="China",CCTV-5HD
+http://107.150.60.122/live/cctv5hd.m3u8
+#EXTINF:-1 tvg-id="CCTV-5HD@CN" tvg-logo="https://example.com/CCTV-5HD.png" group-title="China",CCTV-5+HD
+http://107.150.60.122/live/cctv5p.m3u8
+#EXTINF:-1 tvg-id="CCTV-16HD@CN" tvg-logo="https://example.com/CCTV-16HD.png" group-title="China",CCTV-16HD
+http://107.150.60.122/live/cctv16hd.m3u8
+#EXTINF:-1 tvg-id="CCTV-5体育@CN" tvg-logo="https://example.com/CCTV-5体育.png" group-title="China",CCTV-5 体育
+http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
+#EXTINF:-1 tvg-id="CCTV-16奥林匹克@CN" tvg-logo="https://example.com/CCTV-16奥林匹克.png" group-title="China",CCTV-16 奥林匹克
+http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-id="安徽卫视HD@CN" tvg-logo="https://example.com/安徽卫视HD.png" group-title="China",安徽卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/ahwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="北京卫视HD@CN" tvg-logo="https://example.com/北京卫视HD.png" group-title="China",北京卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/bjwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="兵团卫视@CN" tvg-logo="https://example.com/兵团卫视.png" group-title="China",兵团卫视
+http://38.75.136.137:98/gslb/dsdqpub/btws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="重庆卫视HD@CN" tvg-logo="https://example.com/重庆卫视HD.png" group-title="China",重庆卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/cqwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="(外)大湾区卫视@CN" tvg-logo="https://example.com/(外)大湾区卫视.png" group-title="China",(外)大湾区卫视
+http://38.75.136.137:98/gslb/dsdqpub/gdgj.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="(国)大湾区卫视@CN" tvg-logo="https://example.com/(国)大湾区卫视.png" group-title="China",(国)大湾区卫视
+http://38.75.136.137:98/gslb/dsdqpub/nfws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="东方卫视HD@CN" tvg-logo="https://example.com/东方卫视HD.png" group-title="China",东方卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="东南卫视HD@CN" tvg-logo="https://example.com/东南卫视HD.png" group-title="China",东南卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/dnwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="广东卫视HD@CN" tvg-logo="https://example.com/广东卫视HD.png" group-title="China",广东卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="甘肃卫视HD@CN" tvg-logo="https://example.com/甘肃卫视HD.png" group-title="China",甘肃卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="广西卫视HD@CN" tvg-logo="https://example.com/广西卫视HD.png" group-title="China",广西卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/gxwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="贵州卫视HD@CN" tvg-logo="https://example.com/贵州卫视HD.png" group-title="China",贵州卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/gzwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="河南卫视HD@CN" tvg-logo="https://example.com/河南卫视HD.png" group-title="China",河南卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="湖北卫视HD@CN" tvg-logo="https://example.com/湖北卫视HD.png" group-title="China",湖北卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/hbwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="河北卫视HD@CN" tvg-logo="https://example.com/河北卫视HD.png" group-title="China",河北卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="黑龙江卫视HD@CN" tvg-logo="https://example.com/黑龙江卫视HD.png" group-title="China",黑龙江卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="湖南卫视HD@CN" tvg-logo="https://example.com/湖南卫视HD.png" group-title="China",湖南卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/hnwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="吉林卫视HD@CN" tvg-logo="https://example.com/吉林卫视HD.png" group-title="China",吉林卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="江苏卫视HD@CN" tvg-logo="https://example.com/江苏卫视HD.png" group-title="China",江苏卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="江西卫视HD@CN" tvg-logo="https://example.com/江西卫视HD.png" group-title="China",江西卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="辽宁卫视HD@CN" tvg-logo="https://example.com/辽宁卫视HD.png" group-title="China",辽宁卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/lnwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="内蒙古卫视@CN" tvg-logo="https://example.com/内蒙古卫视.png" group-title="China",内蒙古卫视
+http://38.75.136.137:98/gslb/dsdqpub/nmgws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="宁夏卫视@CN" tvg-logo="https://example.com/宁夏卫视.png" group-title="China",宁夏卫视
+http://38.75.136.137:98/gslb/dsdqpub/nxws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="青海卫视@CN" tvg-logo="https://example.com/青海卫视.png" group-title="China",青海卫视
+http://38.75.136.137:98/gslb/dsdqpub/qhws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="四川卫视HD@CN" tvg-logo="https://example.com/四川卫视HD.png" group-title="China",四川卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/scwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="山东卫视HD@CN" tvg-logo="https://example.com/山东卫视HD.png" group-title="China",山东卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/sdwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="陕西卫视HD@CN" tvg-logo="https://example.com/陕西卫视HD.png" group-title="China",陕西卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/snwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="三沙卫视@CN" tvg-logo="https://example.com/三沙卫视.png" group-title="China",三沙卫视
+http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="山西卫视HD@CN" tvg-logo="https://example.com/山西卫视HD.png" group-title="China",山西卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/sxwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="深圳卫视HD@CN" tvg-logo="https://example.com/深圳卫视HD.png" group-title="China",深圳卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/szwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="天津卫视HD@CN" tvg-logo="https://example.com/天津卫视HD.png" group-title="China",天津卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/tjwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="新疆卫视@CN" tvg-logo="https://example.com/新疆卫视.png" group-title="China",新疆卫视
+http://38.75.136.137:98/gslb/dsdqpub/xjws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="厦门卫视@CN" tvg-logo="https://example.com/厦门卫视.png" group-title="China",厦门卫视
+http://38.75.136.137:98/gslb/dsdqpub/xmws.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="云南卫视HD@CN" tvg-logo="https://example.com/云南卫视HD.png" group-title="China",云南卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/ynwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="浙江卫视HD@CN" tvg-logo="https://example.com/浙江卫视HD.png" group-title="China",浙江卫视HD
+http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTV-5高清@CN" tvg-logo="https://example.com/CCTV-5高清.png" group-title="China",CCTV-5高清
+http://120.76.248.139/live/bfgd/4200000064.m3u8
+#EXTINF:-1 tvg-id="CCTV-5高清@CN" tvg-logo="https://example.com/CCTV-5高清.png" group-title="China",CCTV-5+高清
+http://120.76.248.139/live/bfgd/4200000246.m3u8
+#EXTINF:-1 tvg-id="CCTV-6高清@CN" tvg-logo="https://example.com/CCTV-6高清.png" group-title="China",CCTV-6高清
+http://120.76.248.139/live/bfgd/4200000065.m3u8
+#EXTINF:-1 tvg-id="CCTV-5(2160p)@CN" tvg-logo="https://example.com/CCTV-5(2160p).png" group-title="China",CCTV-5 (2160p)
+http://123.175.209.52:9003/hls/5/index.m3u8
+#EXTINF:-1 tvg-id="CCTV-5(2160p)@CN" tvg-logo="https://example.com/CCTV-5(2160p).png" group-title="China",CCTV-5+ (2160p)
+http://123.175.209.52:9003/hls/6/index.m3u8
