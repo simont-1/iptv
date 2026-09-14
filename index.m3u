@@ -6421,3 +6421,5 @@ http://61.184.46.85:85/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0$%E
 http://61.184.46.85:85/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0$%E8%8D%86%E5%B7%9E%E7%94%B5%E4%BF%A1
 #EXTINF:0,怀旧剧场
 http://61.184.46.85:85/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0$%E8%8D%86%E5%B7%9E%E7%94%B5%E4%BF%A1
+#EXTINF:-1 tvg-id="CNN.us" group-title="News",CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
