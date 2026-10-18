@@ -2,7 +2,7 @@
 
 This file provides compact guidance for OpenCode agents working in this repo. Every line below answers: "Would an agent likely miss this without help?"
 
-This is a personal fork (`simont-1/iptv`) of `iptv-org/iptv`: upstream `master` plus a handful of fork-only commits (AGENTS.md, DEPLOYMENT_TIPS.md, `custom/cn-1.m3u`, `playlist:filter-language`, a custom CNN entry, docs). `DEPLOYMENT_TIPS.md` is the canonical fork deploy guide — read it before any deploy or sync work.
+This is a personal fork (`simont-1/iptv`) of `iptv-org/iptv`: upstream `master` plus a handful of fork-only commits (AGENTS.md, DEPLOYMENT_TIPS.md, `custom/cn-1.m3u`, `custom/cn-2.m3u`, `playlist:filter-language`, a custom CNN entry, docs). `DEPLOYMENT_TIPS.md` is the canonical fork deploy guide — read it before any deploy or sync work.
 
 ## Commands
 
@@ -20,7 +20,7 @@ This is a personal fork (`simont-1/iptv`) of `iptv-org/iptv`: upstream `master` 
 | `npm run playlist:edit` | Quick streams mapping utility |
 | `npm run readme:update` | Update README.md / PLAYLISTS.md |
 | `npm run api:load` | Load API data (run on `postinstall`) |
-| `npm run playlist:filter-language` | Keep only English (eng) / Chinese (zho) streams. DESTRUCTIVE: saves over `streams/*.m3u` in place — run it on a copy, never on the master working tree, and never commit its output |
+| `npm run playlist:filter-language` | Keep only English (eng) / Chinese (zho) streams. DESTRUCTIVE: saves over `streams/*.m3u` in place — run it on a copy, never on the master working tree, and never commit its output. Files with zero eng/zho streams are left untouched — purge them before generating (recipe in DEPLOYMENT_TIPS.md) |
 | `npm run issue:validate` | Validate an issue body against requirements |
 | `npm run report:create` | Create a report on current issues |
 | `npm run act:check` | Run the check workflow locally |
@@ -49,7 +49,7 @@ This is a personal fork (`simont-1/iptv`) of `iptv-org/iptv`: upstream `master` 
 - No `typecheck` script exists in package.json. The actual CI `check` workflow runs `playlist:lint` then `playlist:validate`.
 - The `format` workflow runs `api:load -> playlist:format -> playlist:lint -> playlist:validate`.
 - `update` workflow runs `playlist:update -> playlist:lint -> playlist:validate -> playlist:generate -> playlist:export -> readme:update`, then deploys `.gh-pages/` to `gh-pages` branch via `github-pages-deploy-action`.
-- These workflows describe UPSTREAM CI. The fork's gh-pages deploy is MANUAL and follows `DEPLOYMENT_TIPS.md` — `playlist:generate` output is never deployed as-is (the China group, cn-1 entries, and CNN entry must be assembled).
+- These workflows describe UPSTREAM CI. The fork's gh-pages deploy is MANUAL and follows `DEPLOYMENT_TIPS.md` — `playlist:generate` output is never deployed as-is (the China group, cn-1/cn-2 entries, and CNN entry must be assembled).
 
 ## Key directories
 
@@ -60,13 +60,13 @@ This is a personal fork (`simont-1/iptv`) of `iptv-org/iptv`: upstream `master` 
 - `scripts/models/` - data models (stream, playlist, issue, discussion)
 - `scripts/` also contains api.ts, constants.ts, utils.ts
 - `streams/` - internal playlist files (.m3u), one per country/region
-- `custom/` - fork-only assets kept OUTSIDE the pipeline (currently `cn-1.m3u`, the source of truth for the 48 custom Chinese channels; see Playlist structure)
+- `custom/` - fork-only assets kept OUTSIDE the pipeline: `cn-1.m3u` (48 custom Chinese channels) and `cn-2.m3u` (16 CCTV-x高清; index.m3u-only) are the sources of truth; see Playlist structure
 - `tests/` - vitest test suites (commands/playlist/, commands/issue/, commands/readme/, commands/report/)
 - `tests/__data__/` - test fixtures: `input/` (data, streams) and `expected/` (output)
 - `.github/workflows/` - CI: check, format, update, validate_issue, validate_label
 - `.readme/` - template.md and preview.png for README generation
 - `PLAYLISTS.md` - auto-generated list of available public playlists
-- `DEPLOYMENT_TIPS.md` - fork deploy runbook (gh-pages recipe, cn-1 + CNN append rules, verify commands)
+- `DEPLOYMENT_TIPS.md` - fork deploy runbook (gh-pages recipe, cn-1/cn-2 + CNN append rules, regeneration pipeline, verify commands)
 
 ## Testing quirks
 
@@ -108,14 +108,14 @@ This is a personal fork (`simont-1/iptv`) of `iptv-org/iptv`: upstream `master` 
 
 ## Playlist structure
 
-- `index.m3u` - main playlist, country-grouped by default (`group-title="CountryName"`). After `generate`, copy `index.country.m3u` to `index.m3u`.
-- `index.country.m3u` - channels grouped by country (language-filtered: English/Chinese only)
+- `index.m3u` - main playlist, country-grouped (`group-title="CountryName"`). Assembled = `index.country.m3u` (CNN appended) + cn-1 + cn-2 entries (see below).
+- `index.country.m3u` - channels grouped by country (language-filtered: English/Chinese only; CNN appended at EOF)
 - `index.category.m3u` - channels grouped by category
 - `index.language.m3u` - channels grouped by language
 - `countries/cn.m3u` - database Chinese channels
 - `countries/cn-1.m3u` - custom Chinese channels (manually maintained, not from database; source of truth is `custom/cn-1.m3u` on `master`)
-- `custom/cn-1.m3u` - persistent source for cn-1. Kept OUTSIDE `streams/` on purpose: `playlist:format` strips tvg-ids that are not in the channel database, and `playlist:generate` would file these streams under "Undefined" instead of "China", so they must never go through the pipeline.
-- After `playlist:generate`, copy `index.country.m3u` to `index.m3u`, then append `custom/cn-1.m3u` entries (minus its `#EXTM3U` header) to both `index.m3u` and `countries/cn-1.m3u` in the deployment. cn-1 entries must have `tvg-id="NAME@CN" tvg-logo="URL" group-title="China"` in `#EXTINF` lines (same format as database entries) so the player groups them under "China".
+- `custom/cn-1.m3u` + `custom/cn-2.m3u` - persistent sources for the custom Chinese channels (48 + 16). Kept OUTSIDE `streams/` on purpose: `playlist:format` strips tvg-ids that are not in the channel database, and `playlist:generate` would file these streams under "Undefined" instead of "China", so they must never go through the pipeline.
+- After `playlist:generate`: append the CNN entry to `index.country.m3u` and `countries/us.m3u`; rebuild `index.m3u` = `index.country.m3u` + `custom/cn-1.m3u` + `custom/cn-2.m3u` entries (minus their `#EXTM3U` headers, CRLF-normalized); deploy `countries/cn-1.m3u` as a byte copy of `custom/cn-1.m3u`. cn-1 entries must have `tvg-id="NAME@CN" tvg-logo="URL" group-title="China"` (same format as database entries) so the player groups them under "China"; cn-2 entries are `#EXTINF:0 group-title="China",CCTV-x高清` (no ids). China group as of Oct 2026: 204 = 140 db + 48 cn-1 + 16 cn-2. Full recipe in `DEPLOYMENT_TIPS.md`.
 - `streams/us.m3u` ends with the fork-only `CNN.us` entry (CNN FAST GB CloudFront URL). Upstream carries the same URL as `CNNInternational.us@NorthAmerica`, so a duplicate-URL warning is expected. Re-append the entry after every upstream sync (see Fork workflow).
 
 ## Deployment notes
