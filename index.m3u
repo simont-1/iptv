@@ -7423,7 +7423,7 @@ https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Sport.kg@SD" tvg-logo="https://i.imgur.com/ORCu0w0.png" group-title="International",УТРК Спорт (480p) [Not 24/7]
 https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
 #EXTINF:-1 tvg-id="CNN.us" group-title="United States",CNN
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
+https://d2sybdl23b9psq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bocx3i7bjz0dg/CNNFAST_GB.m3u8
 # Custom Chinese channels (cn-1)
 #EXTINF:-1 tvg-id="CCTV-5体育@CN" tvg-logo="https://example.com/CCTV-5体育.png" group-title="China",CCTV-5体育
 rtmp://ayrtsocndali.v.myalicdn.com/ayocnd/aoyuncctv5_2pd
