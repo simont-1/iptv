@@ -15,13 +15,10 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.
 https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HorseCountryTV.uk@SD" tvg-logo="https://i.imgur.com/1x6zYZr.png" group-title="Outdoor",Horse & Country TV (1080p)
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
-#EXTINF:-1 tvg-id="MTV.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="Entertainment",MTV
+#EXTINF:-1 tvg-id="MTV.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="Entertainment",MTV (Germany)
 https://ma.anixa.tv/clips/stream/mtv/playlist.php
-#EXTINF:-1 tvg-id="Nickelodeon.de@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.de@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (Germany)
 https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
-#EXTINF:-1 tvg-id="SportdigitalFUSSBALL.de@SD" tvg-logo="https://i.imgur.com/NDbWxqF.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21" group-title="Sports",Sportdigital FUSSBALL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 #EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD" tvg-logo="https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png" group-title="Entertainment",The Graham Norton Show (1080p)
 https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="XITEHits.nl@Germany" tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="Music",XITE Hits Germany (1080p)

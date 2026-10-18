@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EBS (1080p)
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EbS (1080p)
 https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EBS Plus (1080p)
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EbS+ (1080p)
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Finland" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Action Movies Finland (1080p)
 https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8

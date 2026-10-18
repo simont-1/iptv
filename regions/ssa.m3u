@@ -1,7 +1,7 @@
-#EXTM3U x-tvg-url="https://worker-9dd4.onrender.com/guide.xml.gz"
+#EXTM3U
 #EXTINF:-1 tvg-id="1KZNTV.za@SD" tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg" group-title="Entertainment;Family;General",1KZN TV (576p)
 https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="3ABNInternational.us@SD" tvg-logo="https://i.imgur.com/IecOZHR.png" group-title="Religious",3ABN International Network (720p)
+#EXTINF:-1 tvg-id="3ABNInternational.us@SD" tvg-logo="https://i.imgur.com/IecOZHR.png" group-title="Religious",3ABN International (720p)
 https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="3ABNTVUganda.ug@SD" tvg-logo="https://i.imgur.com/mml9lI2.png" group-title="Religious",3ABN TV Uganda (720p) [Not 24/7]
 https://3abn.bozztv.com/3abn/3abn_uganda_live/index.m3u8
@@ -40,8 +40,6 @@ https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@EnglishHD" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera English HD (576p)
 http://stream.mcquack.net/131/index.m3u8
-#EXTINF:-1 tvg-id="DUST.us@SD" tvg-logo="https://i.imgur.com/FxYhME9.png" group-title="Movies",Alien Nation by DUST (1080p)
-https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="AlloCine.cm@SD" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Allo%20Cine.jpeg" group-title="Movies",Allo Cine (1080p)
 https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8
 #EXTINF:-1 tvg-id="AlphaDigital.ug@SD" tvg-logo="https://i.imgur.com/sLt242H.png" group-title="Religious",Alpha Digital (480p)
@@ -57,7 +55,7 @@ https://59nyqg8elwap-hls-live.5centscdn.com/APTV/85c20905211659d143febd7c32592ee
 #EXTINF:-1 tvg-id="ApprovalTV.ng@HD" tvg-logo="https://storage.approvaltv.com/2026/03/approvallogo.png" http-referrer="https://live.approvaltv.com/" group-title="General;Religious",Approval TV (720p)
 #EXTVLCOPT:http-referrer=https://live.approvaltv.com/
 https://live.approvaltv.com/approvaltv/index.m3u8
-#EXTINF:-1 tvg-id="ArirangUN.kr@SD" tvg-logo="https://i.imgur.com/Jdy3WNm.png" group-title="News",Arirang TV UN (1080p)
+#EXTINF:-1 tvg-id="ArirangUN.kr@SD" tvg-logo="https://i.imgur.com/Jdy3WNm.png" group-title="News",Arirang UN (1080p)
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArkTV.ug@SD" tvg-logo="https://i.imgur.com/yCHNZXD.png" group-title="Religious",Ark TV (1080p) [Not 24/7]
 https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
@@ -65,14 +63,14 @@ https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
 http://streamer02.nbo1.angani.co:1935/aviationtv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="BahrainInternational.bh@SD" tvg-logo="https://i.imgur.com/t6Lmntr.png" group-title="General",Bahrain International (720p) [Not 24/7]
 https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News",BBC News (1080p) (HEVC) (1080p)
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News",BBC News Africa (1080p)
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BCSStarCrossTV.ng@SD" tvg-logo="https://i.imgur.com/VKv1Y6p.png" group-title="General",BCS StarCross TV (576p)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_001/Stream/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV + (2160p)
+https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@EMEALiveEvent" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV EMEA Live Event (720p)
 https://bloomberg.com/media-manifest/streams/eu-event.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV+ (2160p)
-https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="BOKTV.za@SD" tvg-logo="https://i.imgur.com/mcNjuuO.png" group-title="Music",BOKTV (720p) [Not 24/7]
 https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
 #EXTINF:-1 tvg-id="BrideTV.ng@SD" tvg-logo="https://i.imgur.com/snZMucg.png" group-title="Undefined",Bride TV (576p)
@@ -131,6 +129,8 @@ https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
 https://airvuz-dronetv-1-us.ohlscdn.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DunamisTV.ng@SD" tvg-logo="https://i.imgur.com/thGAXeM.png" group-title="Religious",Dunamis TV (576p) [Not 24/7]
 https://atechgroupuk.site/DTV.m3u8
+#EXTINF:-1 tvg-id="DUST.us@SD" tvg-logo="https://i.imgur.com/FxYhME9.png" group-title="Movies",DUST (1080p)
+https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="DW.de@English" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="News",DW English (1080p)
 https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
 #EXTINF:-1 tvg-id="EBNTV.ke@SD" tvg-logo="https://i.imgur.com/NvxqoEn.png" group-title="Religious",EBN TV (720p) [Not 24/7]
@@ -139,13 +139,15 @@ https://goliveafrica.media:9998/live/65d8475d1e6cb/index.m3u8
 https://rpn.bozztv.com/ebstv/ebstv/index.m3u8
 #EXTINF:-1 tvg-id="ElevateTV.ke@SD" tvg-logo="https://i.imgur.com/M7xaQ7o.jpg" group-title="Religious",Elevate TV (720p) [Not 24/7]
 https://goliveafrica.media:9998/live/64a98a7eac12a/index.m3u8
+#EXTINF:-1 tvg-id="EnglishClubGlobal.uk@SD" tvg-logo="https://img.apk.watch/pics:bz1kZmQ3bjImbD0zZmkmaD1wbmcmZj1HbGk5MCZpPTU" group-title="Education",English Club Global
+https://raw.githubusercontent.com/racitonsen/RacIPTV/refs/heads/main/streams/english-club-global.m3u8
 #EXTINF:-1 tvg-id="ERiTV1.er@SD" tvg-logo="https://i.imgur.com/bTR0Huw.png" group-title="General",ERi-TV 1 (576p)
 https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="News",Euronews English (720p)
 https://jmp2.uk/plu-61de96114757070008d33cae.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="News",Euronews English HD (720p)
-http://45.190.28.50/EURONEWS_HD/index.m3u8
-#EXTINF:-1 tvg-id="EWTN.us@AfricaAsia" tvg-logo="https://i.imgur.com/sua70RO.png" group-title="Religious",EWTN Africa-Asia (720p)
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="News",Euronews English HD
+https://dash4.antik.sk/live/test_euronews/playlist.m3u8
+#EXTINF:-1 tvg-id="EWTN.us@AfricaAsia" tvg-logo="https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw" group-title="Religious",EWTN Africa-Asia (720p)
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="FaithAfrica.za@SD" tvg-logo="https://i.imgur.com/yAZE7aU.png" group-title="Religious",Faith Africa (1080p)
 https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithAfrica.smil/playlist.m3u8
@@ -182,7 +184,7 @@ https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 http://nmk.ioapk.com:5050/4gtv-live146/index.m3u8
 #EXTINF:-1 tvg-id="FUELTV.pt@EMEA" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="Sports",FUEL TV (1080p)
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
-#EXTINF:-1 tvg-id="FunBoxUHD.nl@SD" tvg-logo="https://i.imgur.com/9FJct9o.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Relax",FunBox UHD
+#EXTINF:-1 tvg-id="FunBoxUHD.nl@SD" tvg-logo="https://i.imgur.com/9FJct9o.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Relax",FunBox UHD SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 https://webtvstream.bhtelecom.ba/funbox.m3u8
 #EXTINF:-1 tvg-id="GalaxyTV.ug@SD" tvg-logo="https://i.imgur.com/P5OABe5.png" http-referrer="https://player.castr.com/live_43351ad0f3b411ed81c78fcc31887c54" group-title="Music",Galaxy TV (720p) [Not 24/7]
@@ -210,6 +212,8 @@ https://goliveafrica.media:9998/live/62580b337c021/index.m3u8
 https://goliveafrica.media:9998/live/6593c35f9c090/index.m3u8
 #EXTINF:-1 tvg-id="HLCTV.ke@SD" tvg-logo="https://i.imgur.com/TPZoSXM.jpg" group-title="General",HLC TV (480p) [Not 24/7]
 https://goliveafrica.media:9998/live/627d06e001aaf/index.m3u8
+#EXTINF:-1 tvg-id="HMTV.ng@SD" tvg-logo="https://watchhmtv.com/hmtv_logo.svg" group-title="Music",HMTV (720p)
+https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f409951e98/manifest/video.m3u8
 #EXTINF:-1 tvg-id="HomebaseTV.za@SD" tvg-logo="https://i.imgur.com/MaLNfJG.png" group-title="Religious",Homebase TV (480p)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_022/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Hope4LifeTV.us@SD" tvg-logo="https://i.imgur.com/p24tAjs.jpg" group-title="Religious",Hope4Life TV (720p)
@@ -255,7 +259,7 @@ https://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8
 https://go5lmb6oyawb-hls-live.5centscdn.com/station/3dfd3752af3d7aec5c53992c2da3a316.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="LolweTV.ke@SD" tvg-logo="https://i.imgur.com/tjZ1cOP.png" group-title="News",Lolwe TV (576p) [Not 24/7]
 https://goliveafrica.media:9998/live/62580e144eb43/index.m3u8
-#EXTINF:-1 tvg-id="LoveWorldUK.ng@SD" tvg-logo="https://i.imgur.com/JgHbDmF.png" group-title="Religious",Loveworld UK (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="LoveWorldUK.ng@SD" tvg-logo="https://i.imgur.com/JgHbDmF.png" group-title="Religious",LoveWorld UK (1080p) [Not 24/7]
 https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveWorldUSA.ng@SD" tvg-logo="" group-title="Religious",LoveWorld USA (720p)
 https://cdn3.wowza.com/5/RGtVZkFxL3FOQkxX/LWU/ngrp:lwu.stream_all/playlist.m3u8
@@ -297,36 +301,39 @@ https://live20.bozztv.com/ssh101/ssh101/myrighteous/playlist.m3u8
 https://hls2.nbcplus.na/hls/high_nbc1.m3u8
 #EXTINF:-1 tvg-id="NBTWorld.th@SD" tvg-logo="https://i.imgur.com/GUQhLeg.png" group-title="General",NBT World (1080p)
 https://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="NewChannelPop.ca@SD" tvg-logo="https://videocdn.bamboo-cloud.com/p/11294/sp/1129400/thumbnail/entry_id/0_vjhh0bly/version/100012/width/1920" http-referrer="https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85" group-title="Kids",New Channel Pop! (480p)
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85
+https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 tvg-id="NewVisionTV.ng@SD" tvg-logo="" group-title="Religious",New Vision TV (360p)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_027/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NewsCentral.ng@SD" tvg-logo="https://i.imgur.com/qvCgI8N.png" group-title="News",News Central
 https://wf.newscentral.ng:8443/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NewsoftheWorld.us@Global" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="News",News of the World (720p)
+https://nowhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" tvg-logo="https://i.imgur.com/4ESi2La.png" group-title="Entertainment",NHK World Premium (720p)
 https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" group-title="Culture;News",NHK World-Japan (1080p)
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" group-title="Culture;News",NHK World-Japan HD (1080p)
-http://nmk.ioapk.com:5050/4gtv-live168/index.m3u8
+https://freem3u.xyz/api/live/play.m3u8?vid=106
 #EXTINF:-1 tvg-id="NiceTVKenya.ke@SD" tvg-logo="https://i.imgur.com/UawxLTW.jpg" group-title="General",Nice TV Kenya (720p) [Not 24/7]
 https://goliveafrica.media:9998/live/64ada04aa7678/index.m3u8
 #EXTINF:-1 tvg-id="Nigbati.ng@SD" tvg-logo="" group-title="Culture",Nigbati (720p) [Not 24/7]
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_023/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NjataTV.ke@SD" tvg-logo="https://i.imgur.com/246CBAW.png" group-title="General",Njata TV (576p) [Not 24/7]
 https://goliveafrica.media:9998/live/625816e585a2b/index.m3u8
-#EXTINF:-1 tvg-id="NewsoftheWorld.us@Global" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="News",NOW News Global (720p)
-https://nowhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NowMediaTelevision.us@HD" tvg-logo="https://i.imgur.com/8m8gy0n.png" group-title="Lifestyle;News",NowMedia Television (1080p)
 https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/index.m3u8
 #EXTINF:-1 tvg-id="NTAInternational.ng@SD" tvg-logo="https://i.imgur.com/mN8j8CR.png" group-title="Culture",NTA International (576p) [Not 24/7]
 https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-ntai-hsslive-25f-4x3-MB/playlist.m3u8
 #EXTINF:-1 tvg-id="NuViewTV.za@SD" tvg-logo="https://i.imgur.com/dYRJ7F0.png" group-title="Entertainment",NuView TV (360p)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NWInfo2.tg@SD" tvg-logo="https://i.imgur.com/0W4GqFD.png" group-title="News",NW Info 2 EN (576p)
+#EXTINF:-1 tvg-id="NWInfo2.tg@SD" tvg-logo="https://i.imgur.com/0W4GqFD.png" group-title="News",NW Info 2 (576p)
 https://hls.newworldtv.com/nw-info-2/video/live.m3u8
 #EXTINF:-1 tvg-id="OSBCTV.ng@SD" tvg-logo="https://i.imgur.com/lj9WEq8.png" http-referrer="https://odysee.com/" group-title="General",OSBC TV (480p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
 https://cloud.odysee.live/content/0edfb4b7fb52d2d5ae30e052ce6b61d376fcd662/master.m3u8
-#EXTINF:-1 tvg-id="OTV.gh@SD" tvg-logo="https://pbs.twimg.com/profile_images/1034118312437919744/emeWo-ag_400x400.jpg" group-title="Entertainment",OTV (720p)
+#EXTINF:-1 tvg-id="OTV.gh@SD" tvg-logo="https://pbs.twimg.com/profile_images/1034118312437919744/emeWo-ag_400x400.jpg" group-title="Entertainment",OTV (Ghana) (720p)
 https://5dcabf026b188.streamlock.net/OceansTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="PeaceTVEnglish.ae@SD" tvg-logo="https://i.imgur.com/rjgCM2B.png" group-title="Religious",Peace TV English (1080p)
 https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
@@ -361,7 +368,7 @@ https://stream-hls.castr-cdn.com/6a05a899db0ebd344a759542/live_9655bc604f8211f19
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_039/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@EUMENA" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Outdoor;Sports",Red Bull TV (1080p)
 https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="RedBullTV.at@SD" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Outdoor;Sports",Red Bull TV (1080p)
+#EXTINF:-1 tvg-id="RedBullTV.at@SD" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Outdoor;Sports",Red Bull TV SD (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="ResurrectionTV.gh@SD" tvg-logo="https://i.imgur.com/IncyJW8.png" group-title="Undefined",Resurrection TV (720p)
 https://1681360479.rsc.cdn77.org/1681360479/index.m3u8
@@ -371,11 +378,15 @@ https://webstreaming-8.viewmedia.tv/web_119/Stream/playlist.m3u8
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_012/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RT.ru@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540" group-title="News",RT (720p)
 http://212.5.144.156:8080/rt/index.m3u8
-#EXTINF:-1 tvg-id="RTDocumentary.ru@English" tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary",RT Documentary English (1080p) [Geo-blocked]
-https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="RT.ru@HD" tvg-logo="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540" group-title="News",RT HD (1080p)
 http://31.148.48.15/RT_HD/index.m3u8
-#EXTINF:-1 tvg-id="RwandaTV.rw@SD" tvg-logo="https://i.imgur.com/4nbGvxW.png" group-title="General",RTV Rwanda (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTDocumentary.ru@English" tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary",RT Documentary (1080p) [Geo-blocked]
+https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
+#EXTINF:-1 tvg-id="RTNBDivertissement.bi@SD" tvg-logo="https://i.imgur.com/vNCVLuO.png" group-title="Entertainment",RTNB Divertissement
+https://tv2-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="RTNBTV.bi@SD" tvg-logo="https://i.imgur.com/xfR5P9F.png" group-title="General",RTNB TV
+https://tv1-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="RwandaTV.rw@SD" tvg-logo="https://i.imgur.com/4nbGvxW.png" group-title="General",Rwanda TV (480p) [Not 24/7]
 http://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="SABC1.za@SD" tvg-logo="https://i.imgur.com/G8OXWe4.png" group-title="Undefined",SABC 1 (720p) [Geo-blocked]
 https://sabconeta.cdn.mangomolo.com/sabc1/smil:sabc1.stream.smil/master.m3u8
@@ -387,7 +398,7 @@ https://sabctretalh.cdn.mangomolo.com/lehae/smil:lehae.stream.smil/master.m3u8
 https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8
 #EXTINF:-1 tvg-id="SaltTV.ug@SD" tvg-logo="https://i.imgur.com/AK9nE6Y.png" group-title="Religious",Salt TV
 https://stream.salttelevision.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="SalvationTV.ng@SD" tvg-logo="https://i.imgur.com/Nb08dfK.png" group-title="Undefined",Salvation TV (576p)
+#EXTINF:-1 tvg-id="SalvationTV.ng@SD" tvg-logo="https://i.imgur.com/Nb08dfK.png" group-title="Undefined",Salvation TV (Nigeria) (576p)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_017/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="SayareTV.ke@SD" tvg-logo="https://i.imgur.com/M2Fnxj7.png" group-title="Religious",Sayare TV (720p) [Not 24/7]
 https://goliveafrica.media:9998/live/636dedfa327d7/index.m3u8
@@ -433,15 +444,15 @@ https://channels.trace.plus/Traceprod/GOSPEL_ROA_hd/index.m3u8
 https://channels.trace.plus/Traceprod/AFRICA_EN_hd/index.m3u8
 #EXTINF:-1 tvg-id="Trigger.za@SD" tvg-logo="https://i.imgur.com/TrlrcWf.png" group-title="Undefined",Trigger
 https://origin2.afxp.telemedia.co.za/abr/trigger/playlist.m3u8
-#EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="News",TRT World (1080p) [Not 24/7]
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="News",TRT World (720p)
+https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="News",TRT World HD
 https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="TshwaneTV.za@SD" tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png" group-title="Entertainment;Family;General",Tshwane TV (576p)
 https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TV1.rw@SD" tvg-logo="https://i.imgur.com/wk59tHA.png" group-title="General",TV1
+#EXTINF:-1 tvg-id="TV1.rw@SD" tvg-logo="https://i.imgur.com/nQNOHJx.png" group-title="General",TV1 (Rwanda)
 https://live.tv1.rw/index.m3u8
-#EXTINF:-1 tvg-id="TV3.gh@SD" tvg-logo="https://i.imgur.com/8t967Hq.png" http-referrer="https://liveghanatv.com/" group-title="Undefined",TV3 (540p)
+#EXTINF:-1 tvg-id="TV3.gh@SD" tvg-logo="https://i.imgur.com/8t967Hq.png" http-referrer="https://liveghanatv.com/" group-title="Undefined",TV3 (Ghana) (540p)
 #EXTVLCOPT:http-referrer=https://liveghanatv.com/
 https://g2qd3exjy7an-hls-live.5centscdn.com/webtv3/ghanatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TV10.rw@SD" tvg-logo="https://i.imgur.com/DeaWC1N.png" group-title="General",TV10 (720p)
@@ -468,7 +479,7 @@ https://oqgdro3xd4rm-hls-live.5centscdn.com/waffiitvstreaminglivetfmediacast/e08
 https://newproxy3.vidivu.tv/waptv/index.m3u8
 #EXTINF:-1 tvg-id="WazobiaMaxTVNigeria.ng@SD" tvg-logo="https://i.imgur.com/IeioxBp.png" group-title="Undefined",Wazobia Max TV Nigeria (720p)
 https://wazobia.live:8333/channel/wmax.m3u8
-#EXTINF:-1 tvg-id="WazobiaMaxTVPortHarcourt.ng@SD" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png" group-title="Undefined",Wazobia Max TV Port Harcourt (720p)
+#EXTINF:-1 tvg-id="WazobiaMaxTVPortHarcourt.ng@SD" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png" group-title="Undefined",Wazobia Max TV Port-Harcourt (720p)
 https://wazobia.live:8333/channel/wmaxph.m3u8
 #EXTINF:-1 tvg-id="WholeWordTV.ng@SD" tvg-logo="https://i.imgur.com/71MRtuK.png" group-title="Religious",Whole Word TV (720p)
 https://mn-nl.mncdn.com/wholewordtv/wholewordtv/index.m3u8
@@ -482,5 +493,5 @@ https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u
 https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestream24/60414fd886a863e5851f4559fb86e7f6.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="YOUNIBMediaTV.ke@SD" tvg-logo="https://i.imgur.com/LtiPOYG.jpg" group-title="Religious",YOUNIB Media TV (720p) [Not 24/7]
 https://goliveafrica.media:9998/live/6257fbe7383d6/index.m3u8
-#EXTINF:-1 tvg-id="ZooMoo.sg@SD" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Kids",Zoo Moo (Australia) (1080p)
+#EXTINF:-1 tvg-id="ZooMoo.sg@SD" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Kids",ZooMoo (1080p)
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8

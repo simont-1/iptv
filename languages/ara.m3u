@@ -15,7 +15,7 @@ https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 #EXTINF:-1 tvg-id="BahrainInternational.bh@SD" tvg-logo="https://i.imgur.com/t6Lmntr.png" group-title="General",Bahrain International (720p) [Not 24/7]
 https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8
-#EXTINF:-1 tvg-id="Channel8.iq@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png" group-title="News",Channel 8 Kurdish (720p)
+#EXTINF:-1 tvg-id="Channel8.iq@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png" group-title="News",Channel8 (720p)
 https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="DijlahTV.iq@SD" tvg-logo="https://i.imgur.com/kyzH3G5.png" group-title="News",Dijlah TV (1080p)
 https://ghaasiflu.online/Dijlah/index.m3u8
@@ -59,7 +59,7 @@ https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
 https://afghantv.app/hls2/muslimnetwork/index.m3u8
 #EXTINF:-1 tvg-id="OmanSportsTV.om@SD" tvg-logo="https://i.imgur.com/1omi7p8.png" group-title="Sports",Oman Sports TV (1080p) [Not 24/7]
 https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="OTV.lb@SD" tvg-logo="https://i.imgur.com/toxFMeY.png" group-title="General",OTV (1080p)
+#EXTINF:-1 tvg-id="OTV.lb@SD" tvg-logo="https://i.imgur.com/toxFMeY.png" group-title="General",OTV (Lebanon) (1080p)
 https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Pulse95Radio.ae@SD" tvg-logo="https://maraya.faulio.com/storage/mediagallery/60/26/fullhd_d5c3c81b0562a76bc63f073a5e0947f309b0215b.png" group-title="Undefined",Pulse95 Radio (1080p)
 https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8
@@ -71,7 +71,9 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc04
 https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="StoryChannelTV.ma@SD" tvg-logo="https://i.imgur.com/ZBV6xph.png" group-title="Culture",StoryChannel TV (720p)
 https://136044159.r.cdnsun.net/storychannel.m3u8
-#EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="General",Türkmenistan (406p) [Not 24/7]
+#EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="General",Turkmenistan (406p) [Not 24/7]
 https://alpha.tv.online.tm/hls/ch007.m3u8
-#EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="General",TV2 (1080p)
+#EXTINF:-1 tvg-id="TurksatTanitim.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/T%C3%BCrksat_logo.svg/960px-T%C3%BCrksat_logo.svg.png" group-title="Undefined",Turksat Tanitim (1080p) [Geo-blocked]
+http://176.65.153.26:6004/play/a02s/index.m3u8
+#EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="General",TV2 (Algeria) (1080p)
 http://185.9.2.18/chid_347/index.m3u8

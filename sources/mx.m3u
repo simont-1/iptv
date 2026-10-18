@@ -3,3 +3,5 @@
 http://181.119.66.28:8081/DISTRITO-COMEDIA/index.m3u8
 #EXTINF:-1 tvg-id="Panico.mx@SD" tvg-logo="https://i.imgur.com/XOJzlfS.png" group-title="Undefined",Panico (576p)
 http://181.78.8.199:8000/play/a0bt/index.m3u8
+#EXTINF:-1 tvg-id="TeleHit.mx@SD" tvg-logo="https://i.imgur.com/NVxHxJn.png" group-title="Music",TeleHit (1080p)
+http://190.61.47.54:8000/play/a029/index.m3u8

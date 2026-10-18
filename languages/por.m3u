@@ -3,19 +3,26 @@
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 #EXTINF:-1 tvg-id="CINDIETV.br@HD" tvg-logo="https://a.jsrdn.com/hls/23208/cindie-tv/logo_20250225_222520_68.png" group-title="Movies",CINDIE TV (1080p)
 https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EBS (1080p)
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EbS (1080p)
 https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EBS Plus (1080p)
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EbS+ (1080p)
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
-#EXTINF:-1 tvg-id="Eurochannel.uk@SD" tvg-logo="https://i.imgur.com/yXAtmI6.png" group-title="General",Eurochannel (1080p)
-https://cdn1tlinkgo.tlink.cl/eurochannel/index.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" tvg-logo="https://i.imgur.com/ODhkYyx.png" group-title="Kids",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
+#EXTINF:-1 tvg-id="NewChannelPop.ca@SD" tvg-logo="https://videocdn.bamboo-cloud.com/p/11294/sp/1129400/thumbnail/entry_id/0_vjhh0bly/version/100012/width/1920" http-referrer="https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85" group-title="Kids",New Channel Pop! (480p)
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85
+https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 tvg-id="SBNTVGlobal.us@SD" tvg-logo="https://i.imgur.com/NJu6oYB.png" group-title="Religious",SBN TV Global (720p)
 https://watch.sardius.media/channels/Ea867F3e1F56B06/site_8D363D13Eb/live.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban (Australia) (1080p)
+#EXTINF:-1 tvg-id="TBS.us@West" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="General",TBS West (720p) [Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="General",TNT West (720p) [Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="Tooncast.us@SD" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Animation;Kids",Tooncast (1080p)
+http://38.134.250.110:8000/play/a01t/index.m3u8
+#EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban (1080p)
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban France (1080p)
+#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban HD (1080p)
 https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="TVPaiEterno.br@SD" tvg-logo="https://i.imgur.com/iuoXchN.png" group-title="Religious",TV Pai Eterno (720p)
 http://45.162.64.114/TV_PAI_ETERNO/index.m3u8

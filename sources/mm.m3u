@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="MEntertainmentChannel.mm@SD" tvg-logo="https://i.imgur.com/6PcdTZ2.png" group-title="Entertainment",M Entertainment Channel (720p)
 https://mmtvs.exliatycl.online/mchannel/stream.m3u8
+#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="General",Myanmar International TV
+https://mrtvott.com/cache/MITV/master.m3u8

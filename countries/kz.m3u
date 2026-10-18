@@ -1,5 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Mangystay.kz@SD" tvg-logo="https://i.imgur.com/9JfLseu.png" group-title="General",Mańǵystaý (540p) [Not 24/7]
+#EXTINF:-1 tvg-id="JibekJoly.kz@SD" tvg-logo="https://i.imgur.com/SqyXtgK.png" group-title="General",Jibek Joly (576p)
+https://fs.uplink.kz/jibek_joly/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="Mangystay.kz@SD" tvg-logo="https://i.imgur.com/9JfLseu.png" group-title="General",Mangystay (540p) [Not 24/7]
 https://stream.kaztrk.kz/regional/mangystautv/index.m3u8
 #EXTINF:-1 tvg-id="MuzzOne.kz@SD" tvg-logo="https://i.imgur.com/nHVABXh.png" http-referrer="https://muzzone.tv/" group-title="Music",MuzzOne
 #EXTVLCOPT:http-referrer=https://muzzone.tv/

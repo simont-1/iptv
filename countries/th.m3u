@@ -31,11 +31,9 @@ https://cdn-live.dltv.ac.th/dltv13.m3u8
 https://cdn-live.dltv.ac.th/dltv14.m3u8
 #EXTINF:-1 tvg-id="DLTV15.th@SD" tvg-logo="https://i.imgur.com/onJi2b6.png" group-title="Education",DLTV 15 (1080p)
 https://cdn-live.dltv.ac.th/dltv15.m3u8
-#EXTINF:-1 tvg-id="One31.th@SD" tvg-logo="https://i.imgur.com/HXFNbuc.png" group-title="General",ONE HD 31 (720p)
+#EXTINF:-1 tvg-id="One31.th@SD" tvg-logo="https://i.imgur.com/HXFNbuc.png" group-title="General",One 31 (720p)
 https://lb1-live-mv.v2h-cdn.com/hls/ffba/yogvfi/yogvfi.m3u8
 #EXTINF:-1 tvg-id="RTMASEAN.my@SD" tvg-logo="https://i.imgur.com/skAiUxg.png" group-title="News",RTM ASEAN
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-id="TNN16.th@SD" tvg-logo="https://i.imgur.com/skpvuKq.png" group-title="Undefined",TNN 16 (720p)
+#EXTINF:-1 tvg-id="TNN16.th@SD" tvg-logo="https://i.imgur.com/skpvuKq.png" group-title="Undefined",TNN16 (720p)
 https://lb1-live-mv.v2h-cdn.com/hls/ffdc/mugvhogvho/mugvhogvho.m3u8
-#EXTINF:-1 tvg-id="ZeeBollymovies.in@SD" tvg-logo="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" group-title="Movies",Zee Bollymovies (1080p) [Geo-blocked]
-https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8

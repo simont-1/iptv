@@ -1,9 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EBS (1080p)
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EbS (1080p)
 https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EBS Plus (1080p)
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EbS+ (1080p)
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.hu@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary",Investigation Discovery (Hungary)
+http://88.212.15.17/live/id_hun/index.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" tvg-logo="https://i.imgur.com/ODhkYyx.png" group-title="Kids",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca@SD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="Outdoor",Love Nature (1080p)
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="Outdoor",Love Nature HD (1080p)
+https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8

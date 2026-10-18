@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Entertainment",Discovery Channel Latin America (1080p)
+http://45.171.64.30:6060/play/a032/index.m3u8
+#EXTINF:-1 tvg-id="RetroPlus.cl@SD" tvg-logo="https://i.imgur.com/fkCasXI.png" group-title="Music",Retro Plus (1080p)
+http://181.119.97.124:8080/play/a00t/index.m3u8

@@ -8,8 +8,8 @@ https://mumt07.tangotv.in/zHjX9OFlBHARATEXPRESS/index.m3u8
 #EXTINF:-1 tvg-id="City41.pk@SD" tvg-logo="https://i.imgur.com/U5BdY2g.png" group-title="News",City 41 (576p)
 http://163.61.227.29:8000/play/a02r/index.m3u8
 #EXTINF:-1 tvg-id="DDUrdu.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_URDU/images/LOGO_HD/image.png" group-title="General",DD Urdu (720p)
-https://cdn-4.pishow.tv/live/8/master.m3u8
-#EXTINF:-1 tvg-id="DunyaNewsUK.uk@SD" tvg-logo="https://i.imgur.com/dtrTfZC.png" group-title="News",Dunya News (UK Feed) (720p) [Not 24/7]
+https://cdn.pishow.tv/ott/live/8/master.m3u8
+#EXTINF:-1 tvg-id="DunyaNewsUK.uk@SD" tvg-logo="https://i.imgur.com/dtrTfZC.png" group-title="News",Dunya News UK (720p) [Not 24/7]
 https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
 #EXTINF:-1 tvg-id="GodStandsTV.pk@Main" tvg-logo="https://i.imgur.com/EO6cYUI.png" group-title="Religious",God Stands TV
 https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8

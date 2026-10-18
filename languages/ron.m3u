@@ -3,15 +3,28 @@
 https://atomic.streamnet.ro/atomictv.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="Kids",BabyFirst (720p)
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EBS (1080p)
+#EXTINF:-1 tvg-id="DiscoMix.ro@SD" tvg-logo="https://www.discomix.ro/wp-content/uploads/2023/03/Disco-Mix-1.png" group-title="Music",Disco Mix (576p)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-disco-mix/live_hq?offsetSeconds=0
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EbS (1080p)
 https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EBS Plus (1080p)
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EbS+ (1080p)
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" http-referrer="https://cool-tv.net/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Documentary",National Geographic
+#EXTINF:-1 tvg-id="Minimax.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/Minimax_2021.svg" http-referrer="https://cool-tv.net/" group-title="Animation;Kids",Minimax
+#EXTVLCOPT:http-referrer=https://cool-tv.net/
+https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8
+#EXTINF:-1 tvg-id="MoozLove.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/50/Mooz_Love_2026.png" group-title="Music",Mooz Love (576p)
+https://tvextra-hls.b-cdn.net/moozlove/moozlove.m3u8
+#EXTINF:-1 tvg-id="MoozRetro.ro@SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/0/0c/Mooz_Retro_%282026-.n.v.%29.png" group-title="Music",Mooz Retro (576p)
+https://tvextra-hls.b-cdn.net/moozretro/moozretro.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" http-referrer="https://cool-tv.net/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Documentary",National Geographic (Romania)
 #EXTVLCOPT:http-referrer=https://cool-tv.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://onyx1.mofta1.cfd/ngeo/usergenrnd84oeigt.m3u8
+#EXTINF:-1 tvg-id="PROTV.ro@HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8a/Pro_TV_Aug_2025.svg/revision/latest/scale-to-width-down/1000?cb=20250810105837" group-title="Undefined",PRO TV HD (1080p)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="PROTVInternational.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/PRO_TV_Interna%C8%9Bional_%282017%29.svg/revision/latest/scale-to-width-down/1000?cb=20220821114700" group-title="Undefined",PRO TV International
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="RadioFxNet.ro@HD" tvg-logo="https://radiofxnet.ro/wp-content/uploads/2021/03/cropped-cropped-cropped-cropped-Radio_FX_Net_logo-1-1.png" group-title="Music",Radio Fx Net (720p)
 https://streamlov.alsolnet.com/radiofxnet/live/playlist.m3u8
-#EXTINF:-1 tvg-id="StarTV.md@SD" tvg-logo="https://i.imgur.com/6BBnG6f.png" group-title="Entertainment",Star TV
-http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
+#EXTINF:-1 tvg-id="RTNChicago.us@SD" tvg-logo="https://i.ibb.co/wwchqYk/889dc1-937ba3d8d4ed4331a668a1c544766318-mv2.png" group-title="Religious",RTN Chicago (480p)
+https://651c69fa2ff4e.streamlock.net/3707/live1/chunklist.m3u8

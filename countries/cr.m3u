@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="GexTV.cr@HD" tvg-logo="https://gextv.com/LOGO-WHITE.png" group-title="Entertainment;Music",Gex TV (1080p)
 https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
+#EXTINF:-1 tvg-id="HopeChannelPROYECTOJA.cr@SD" tvg-logo="https://i.imgur.com/VDyf36C.png" group-title="Family;Music;Religious",Hope Channel PROYECTO JA (360p)
+https://edge1-us-miami.picarto.tv/stream/hls/golive%2bXSTUDIOCODE/0_1/index.m3u8

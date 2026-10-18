@@ -18,11 +18,11 @@ https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
 https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
 #EXTINF:-1 tvg-id="CRTV.cm@SD" tvg-logo="https://i.imgur.com/cQWNh3L.png" group-title="General",CRTV (576p)
 http://145.239.5.177/147/index.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EBS (1080p)
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative",EbS (1080p)
 https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EBS Plus (1080p)
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative",EbS+ (1080p)
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
-#EXTINF:-1 tvg-id="EWTN.us@Canada" tvg-logo="https://i.imgur.com/sua70RO.png" group-title="Religious",EWTN Canada (720p)
+#EXTINF:-1 tvg-id="EWTN.us@Canada" tvg-logo="https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw" group-title="Religious",EWTN Canada (720p)
 https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="ForYouTV.cm@SD" tvg-logo="https://i.imgur.com/1oMboXL.png" group-title="News",For You TV
 https://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8
@@ -59,11 +59,15 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="NauticalChannel.it@SD" tvg-logo="https://i.imgur.com/2ByDyzL.png" group-title="Sports",Nautical Channel (720p)
 https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="OTV.lb@SD" tvg-logo="https://i.imgur.com/toxFMeY.png" group-title="General",OTV (1080p)
+#EXTINF:-1 tvg-id="OTV.lb@SD" tvg-logo="https://i.imgur.com/toxFMeY.png" group-title="General",OTV (Lebanon) (1080p)
 https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTelePuissance.us@SD" tvg-logo="https://i.imgur.com/ZLPwJug.png" group-title="Religious",Radio Tele Puissance
 https://video1.getstreamhosting.com:1936/8560/8560/playlist.m3u8
-#EXTINF:-1 tvg-id="RwandaTV.rw@SD" tvg-logo="https://i.imgur.com/4nbGvxW.png" group-title="General",RTV Rwanda (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTNBDivertissement.bi@SD" tvg-logo="https://i.imgur.com/vNCVLuO.png" group-title="Entertainment",RTNB Divertissement
+https://tv2-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="RTNBTV.bi@SD" tvg-logo="https://i.imgur.com/xfR5P9F.png" group-title="General",RTNB TV
+https://tv1-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="RwandaTV.rw@SD" tvg-logo="https://i.imgur.com/4nbGvxW.png" group-title="General",Rwanda TV (480p) [Not 24/7]
 http://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-logo="https://i.imgur.com/nh1k5RC.png" group-title="Music",Stingray Classica (1080p)
 https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
@@ -83,15 +87,15 @@ https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc2626
 http://145.239.5.177/315/index.m3u8
 #EXTINF:-1 tvg-id="TraceAfrica.fr@SD" tvg-logo="https://i.imgur.com/kPUkoS7.png" group-title="Music",Trace Africa (1080p)
 https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Sports",Trace Sport Stars (Australia) (1080p)
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Sports",Trace Sport Stars (1080p)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban (Australia) (1080p)
+#EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban (1080p)
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban France (1080p)
+#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban HD (1080p)
 https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
-#EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="General",Türkmenistan (406p) [Not 24/7]
+#EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="General",Turkmenistan (406p) [Not 24/7]
 https://alpha.tv.online.tm/hls/ch007.m3u8
-#EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="General",TV2 (1080p)
+#EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="General",TV2 (Algeria) (1080p)
 http://185.9.2.18/chid_347/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondePacific.fr@SD" tvg-logo="https://i.imgur.com/mfZOYZI.png" group-title="Undefined",TV5Monde Pacific
 http://103.190.232.129/stream/tvb/pacifique/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg

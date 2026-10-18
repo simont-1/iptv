@@ -1,7 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="SmashTV.mt@SD" tvg-logo="https://i.imgur.com/Yg6ZWKu.png" group-title="General",Smash TV (720p)
+#EXTINF:-1 tvg-id="SmashTV.mt@SD" tvg-logo="https://i.imgur.com/Yg6ZWKu.png" group-title="General",Smash TV (Malta) (720p)
 https://stream.smashmalta.com:25463/live/webplayer/livestream/47.m3u8
-#EXTINF:-1 tvg-id="TVM.mt@SD" tvg-logo="https://i.imgur.com/V0iMsED.png" group-title="General",TVM (1080p)
-https://stream.smashmalta.com:25463/live/webplayer/livestream/19.m3u8
-#EXTINF:-1 tvg-id="TVMsportPlus.mt@SD" tvg-logo="https://i.imgur.com/YIreFti.png" group-title="Sports",TVMsport+ (1080p)
-https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
+#EXTINF:-1 tvg-id="MedTV.mt@SD" tvg-logo="https://i.imgur.com/ejGeXPD.png" group-title="Culture",Med.TV (Malta) (720p)
+https://med-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-medtv-1-restreaming/bitok/eyJzdGlkIjoiMGUzYjU2OWQtYTY3NC00ZDQxLThmZmMtNjA2NWU5YzMwNTViIiwibWt0IjoiaXQiLCJjaCI6IjUiLCJwdGYiOjV9/hls/main.m3u8

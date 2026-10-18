@@ -1,13 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MaldivesTV.mv@SD" tvg-logo="https://i.imgur.com/Zl2FmFC.png" group-title="Travel",Maldives TV (720p)
+#EXTINF:-1 tvg-id="MaldivesTV.mv@SD" tvg-logo="https://i.imgur.com/Zl2FmFC.png" group-title="Travel",Maldives TV (Maldives) (720p)
 https://lana.psm.mv/live/mtv.m3u8
-#EXTINF:-1 tvg-id="MMTV.mv@SD" tvg-logo="https://i.imgur.com/21tpl5b.png" group-title="General",MMTV (1080p)
+#EXTINF:-1 tvg-id="MMTV.mv@SD" tvg-logo="https://i.imgur.com/21tpl5b.png" group-title="General",MMTV (Maldives) (1080p)
 https://sendlive.online/hls/mmtv.m3u8
-#EXTINF:-1 tvg-id="Munnaaru.mv@SD" tvg-logo="https://i.imgur.com/Adhr5xq.png" group-title="Religious",Munnaaru
+#EXTINF:-1 tvg-id="Munnaaru.mv@SD" tvg-logo="https://i.imgur.com/Adhr5xq.png" group-title="Religious",Munnaaru (Maldives)
 https://customer-ujex1meek7koqd9x.cloudflarestream.com/6a46f90ca384c7419efdbef3ff1892a9/manifest/video.m3u8
-#EXTINF:-1 tvg-id="PSMNews.mv@SD" tvg-logo="https://i.imgur.com/mGuBbPv.png" group-title="News",PSM News
+#EXTINF:-1 tvg-id="PSMNews.mv@SD" tvg-logo="https://i.imgur.com/mGuBbPv.png" group-title="News",PSM News (Maldives)
 https://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8
-#EXTINF:-1 tvg-id="RaajjeTV.mv@SD" tvg-logo="https://i.imgur.com/QxdkiCZ.png" group-title="General",Raajje TV
+#EXTINF:-1 tvg-id="RaajjeTV.mv@SD" tvg-logo="https://i.imgur.com/QxdkiCZ.png" group-title="General",Raajje TV (Maldives)
 https://raajjetv.yarr-myn.workers.dev/RaajjeTv.m3u8
-#EXTINF:-1 tvg-id="TVMaldives.mv@SD" tvg-logo="https://i.imgur.com/1c7rFKC.png" group-title="General",TV Maldives
+#EXTINF:-1 tvg-id="TVMaldives.mv@SD" tvg-logo="https://i.imgur.com/1c7rFKC.png" group-title="General",TV Maldives (Maldives)
 https://customer-ujex1meek7koqd9x.cloudflarestream.com/9e93379c0d46ee588b99263d95bd9c42/manifest/video.m3u8
+#EXTINF:-1 tvg-id="TVMaldives.mv@SD" tvg-logo="https://i.imgur.com/1c7rFKC.png" group-title="General",TV Maldives (Maldives)
+https://lana.psm.mv/live/tvm.m3u8
