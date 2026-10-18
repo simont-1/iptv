@@ -93,8 +93,9 @@ This file provides compact guidance for OpenCode agents working in this repo. Ev
 - `index.category.m3u` - channels grouped by category
 - `index.language.m3u` - channels grouped by language
 - `countries/cn.m3u` - database Chinese channels
-- `countries/cn-1.m3u` - custom Chinese channels (manually maintained, not from database)
-- After `playlist:generate`, copy `index.country.m3u` to `index.m3u`, then append `countries/cn-1.m3u` entries to `index.m3u`. cn-1 entries must have `tvg-id="NAME@CN" tvg-logo="URL" group-title="China"` in `#EXTINF` lines (same format as database entries) so the player groups them under "China".
+- `countries/cn-1.m3u` - custom Chinese channels (manually maintained, not from database; source of truth is `custom/cn-1.m3u` on `master`)
+- `custom/cn-1.m3u` - persistent source for cn-1. Kept OUTSIDE `streams/` on purpose: `playlist:format` strips tvg-ids that are not in the channel database, and `playlist:generate` would file these streams under "Undefined" instead of "China", so they must never go through the pipeline.
+- After `playlist:generate`, copy `index.country.m3u` to `index.m3u`, then append `custom/cn-1.m3u` entries (minus its `#EXTM3U` header) to both `index.m3u` and `countries/cn-1.m3u` in the deployment. cn-1 entries must have `tvg-id="NAME@CN" tvg-logo="URL" group-title="China"` in `#EXTINF` lines (same format as database entries) so the player groups them under "China".
 
 ## Deployment notes
 
